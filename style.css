@@ -1,0 +1,58 @@
+body {
+    background-color: #fff8f5;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    background-color: #8e5572;
+}
+
+.navbar-brand {
+    color: white !important;
+}
+
+.hero {
+    padding: 100px 20px;
+    background: linear-gradient(135deg, #f7b2d8, #c9a7e8);
+    color: white;
+}
+
+.hero h1 {
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.recipe-card {
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    transition: 0.3s;
+}
+
+.recipe-card:hover {
+    transform: translateY(-5px);
+}
+
+.recipe-detail {
+    max-width: 800px;
+    margin: auto;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+}
+
+footer {
+    background-color: #8e5572;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+@media (max-width: 768px) {
+
+    .hero h1 {
+        font-size: 40px;
+    }
+
+}
